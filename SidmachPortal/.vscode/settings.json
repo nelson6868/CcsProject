@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/793b5266-01e8-4edd-8670-3120b0213782/resourceGroups/SIDMACHCLOUD_RG/providers/Microsoft.Web/sites/sidmach-portal",
+    "appService.deploySubpath": "."
+}

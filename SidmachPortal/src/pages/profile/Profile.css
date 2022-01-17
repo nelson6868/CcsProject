@@ -1,0 +1,213 @@
+.container{
+  
+    margin-top:116px;
+   }
+
+#arrow{
+    padding-left: 10px;
+}
+
+.small{
+    text-align: center;
+    font-family: sans-serif;
+}
+.width{
+    width:420px;
+    margin-right:20px;
+    border: none;
+    box-shadow: none;
+}
+
+
+.EditIcon{
+    text-align:right;
+    font-family:  sans-serif;
+    color: #282E52;
+    margin-left: 70px;
+
+}
+.EditIcon :hover{
+    background: tomato;
+}
+.textright{
+    margin-left:14px;
+    font-family:  sans-serif;
+   
+    color: black;
+    font-size: 17px;
+    text-align:left;
+  
+}
+.header{
+    margin-right:70px;
+    width: 330px;
+    font-size:19px;
+    font-weight: bold;
+  
+}
+
+
+.header:hover{
+    background-color:#ccc;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.textright2{
+    color: #282E52;
+    font-family:  sans-serif;
+    font-weight: bold;
+     
+    font-style: normal;
+    line-height: 200%;
+    font-family:  sans-serif;
+}
+
+    .textright3{
+        color: #282E52;
+        font-family:  sans-serif;
+        font-weight: bold;
+         padding-right: 10px;
+        font-style: normal;
+        line-height: 200%;
+        font-family:  sans-serif;
+    }
+.textright4{
+    color: #282E52;
+    font-family:  sans-serif;
+    font-weight: bold;
+     padding-left: 10px;
+    font-style: normal;
+    line-height: 200%;
+    font-family:  sans-serif;
+
+}
+.cspdis{
+    margin-left:14px;
+    color: #282E52;
+    font-family:  sans-serif;
+    font-weight: bold;
+     padding-left: 10px;
+    font-style: normal;
+    line-height: 200%;
+    font-family:  sans-serif;
+  
+
+}
+.Acc{
+    border:none;
+    
+
+}
+.textright3{
+   
+    color: #282E52;
+    font-weight: bold;
+       
+    
+    
+}
+
+
+  .logout:hover{
+      background-color: red;
+  }
+  .texthover1:hover{
+    background-color: #ccc;  
+    font-size:30px;
+    font-weight: 30px;
+    color: #282E52;
+
+  }
+  .texthover1 {
+    font-size:30px;
+    font-weight: 30px;
+  }
+
+  .texthover:active{
+      color:orange;
+      background: #ccc; 
+  }
+ .texthover:visited{
+     background-color:purple;
+ }
+ .texthover:link{
+     color: seagreen;
+ }
+  .texthover:hover{
+    background: #ccc; 
+
+  } 
+
+
+  .texthover {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Style the active class (and buttons on mouse-over) */
+  .active, .texthover:hover {
+    /* background-color: #666; */
+    color: #282E52;
+  }
+  .inputbox1 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid #282E52;
+}
+.logout{
+    font-weight: bold;
+   font-size: small;
+   font-family:  sans-serif;
+    text-align: center;
+
+}
+
+.swal-wide{
+    width:400px !important;
+    height:300px !important;
+    font-size:1px !important;
+  }
+
+
+.aligncenter{
+   
+    text-align: center;
+      
+}
+.store{
+    height:100px;
+    background: #FAF9F6;  
+    font-family:  sans-serif;
+    background-color: #ccc,transparent;
+}
+
+.store1{
+   
+    height: 290px;
+    font-family:  sans-serif;
+    margin-bottom:20px;
+   
+   
+    
+}
+.storefirst{
+    height: 290px;
+    font-family:  sans-serif;
+  
+}
+.store2{
+   
+    margin-top:9px;
+}
+.padding{
+    margin-top:30px;
+    
+}
+
+

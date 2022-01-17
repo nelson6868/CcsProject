@@ -1,0 +1,45 @@
+.subtotal > button{
+height: 48px;
+width: 334px;
+left: 772px;
+top: 1421px;
+border-radius: 0px;
+background: #282E52;
+color: white;
+padding: 10px;
+margin: 5px;
+}
+.subtotal{
+    padding :10px;
+    
+}
+.totalvalue {
+    font-size: 30px;
+}
+.subtotal > p{
+    margin-left: 500px;
+}
+.cshopping{
+    height: 48px;
+width: 334px;
+ left: 772px;
+top: 1421px;
+border-radius: 0px;
+color: #CFCFCF;
+border: none;
+
+background:#282E52;
+padding: 10px;
+margin: 5px;
+}
+.cshopping2{
+    height: 48px;
+width: 334px;
+/* left: 772px; */
+top: 1421px;
+border-radius: 0px;
+background:#282E52 ;
+color:white;
+padding: 10px;
+margin: 5px;
+}

@@ -1,0 +1,193 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    }
+    .swal-wide{
+        width:400px !important;
+        height:300px !important;
+        font-size: 14px !important;
+      }
+    
+    .Support__page {
+        position: relative;
+        min-height: 100vh;
+        padding:50px, 100px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .contact_Us{
+        background-image:url(../../assets/contactpgphoto.jpg);
+        height: 600px;
+        width:100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+    }
+    .contact_Us p{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        margin-top:350px;
+        margin-right: 600px;
+        padding: 20;
+        color: #fff;
+    }
+    .Content{
+        max-width: 800px;
+        text-align: center;
+    }
+    .Content p {
+        color: rgb(3, 0, 10);
+        font-weight: 500;
+    }
+    .Content h2 {
+        margin-top: 30px;
+        font-size: 34px;
+        font-weight: 600;
+        color: rgb(3, 0, 10);
+        
+    }
+    .Container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    
+    }
+    .bot_link{
+        margin-bottom: 100px;
+    }
+    .bot_link em{
+        color: #130786;
+    
+    }
+    .contact__Info{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        
+    }
+    .box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+    .Icon{
+        min-width:60px;
+        height: 100px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+    .contact_text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        color: rgb(0,0,0);
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .contact_text h3{
+     font-weight: 500;
+     color: #282E52;   
+    }
+    .Support__Form{
+        width: 35%;
+        padding: 40px;
+        background: #fff;
+        border-radius: 5%;
+    }
+    .Support__Form h2{
+        font: size 30px;
+        /* color: #282E52; */
+        font-weight: 500;
+        /* text-align: center; */
+        margin-bottom: 30px;
+        
+    }
+    /* .Support__Form p{
+        font: size 20px;
+        font-weight: 400;
+        color: #55565f;
+        margin-bottom: 20px;
+    } */
+    .support_input{
+        width: 100%;
+        /* margin-top: 30px; */
+        height: 50px;
+        padding: 5px 0;
+        font-size: 16px;
+        border:1px solid #bdc1c4;
+        border-radius: 3px;
+        background:#fff;
+        outline: none;
+    }
+    .text_area{
+        width: 100%;
+        margin-top: 30px, 0;
+        padding: 5px 0;
+        font-size: 16px;
+        border-radius: 3px;
+        background:#fff;
+        outline: none;
+        resize: none;
+        border:1px solid #bdc1c4;
+    }
+    .form_label{
+        margin-top:20px;
+        /* padding-top: 40px; */
+    }
+    .support_submit{
+        position: relative;
+        margin-top: 25px;
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        /* margin-left: 20%; */
+        border-radius: 2px;
+        border: none;
+        outline: none;
+        background:#282E52;
+        color:#fff;
+    }
+    @media(max-width:991px)
+    {
+        .Support__page
+        {
+            padding:50px;
+        }
+        .Container
+        {
+            flex-direction: column;
+        }
+        .contact__Info
+        {
+            width: 100%;
+        }
+        .contact__Info
+        {
+            margin-bottom: 40px;
+        }
+        .Support__Form
+        {
+            width:100%;
+        }
+        .contact_Us
+        {
+            width: 100%;
+            background-position: center;
+            background-size:cover;
+        }
+    }

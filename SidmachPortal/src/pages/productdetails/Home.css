@@ -1,0 +1,16 @@
+.home{
+    /* max-width : 1200px; */
+    margin-left :auto;
+    margin-right: auto;
+}
+.home__logo{
+    width: 100%;
+    z-index :-1;
+    margin-bottom: -190px;
+    height: 50vh;
+}
+.home_row{
+    display: flex;
+    z-index: 1;
+   justify-content: center;
+} 

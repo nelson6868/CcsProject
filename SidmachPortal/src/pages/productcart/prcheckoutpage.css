@@ -1,0 +1,20 @@
+.productquantity1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* max-height: 100px; */
+}
+.productcart_title1{
+    margin-left: 50px;
+    max-width: fit-content;
+}
+.productcartimage1{
+    max-height: 150px;
+    max-width: 150px;
+}
+.cprice1{
+    margin-left: 50px;
+}
+.value1{
+    margin-left: 50px;
+}

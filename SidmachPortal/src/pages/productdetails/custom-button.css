@@ -1,0 +1,37 @@
+.custom-button {
+        background-color:  #282E52;
+        border: 1px solid;
+        border-color:#a88734 #9c7e31;
+        height: 34.04486083984375px;
+        width: 202px;
+        left: 859px;
+        top: 1162px;
+        border-radius: 0px;
+        color: white;
+}
+.custom-button:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+
+.google-sign-in {
+        background-color: #4385f4;
+        color: white;
+}
+.google-sign-in:hover {
+            background-color: #357ae8;
+            border: none;
+        }
+    
+
+.inverted {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+}
+.inverted:hover {
+        background-color: black;
+        color: white;
+        border: none;
+}

@@ -1,0 +1,61 @@
+.checkoutp{
+    display: flex;
+    justify-content: space-evenly;
+    /* width:1200px; */
+    margin-top: 10px;
+    margin-bottom: 300px;
+    margin-left: 50px;
+}
+.ppcart{
+display: flex;
+flex-direction: column;
+}
+.swal-wide{
+    width:400px !important;
+    height:300px !important;
+    font-size: 14px !important;
+  }
+
+
+.checkouttotal>  p {
+    float: left;
+}
+.cpbutton1{
+    width: 300px;
+    margin-left: 150px;
+    margin-top: -500px;
+}
+.cpbutton{
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.totalvalue1{
+    margin-left: 300px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: -150px;
+}
+.totalandbutton{
+    max-height: 50px;
+}
+.supportcart{
+    margin-top: 30px;
+}
+.cpbutton2{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.btmnav{
+    width: 100%;
+    padding: 15px;
+	color: #fff;
+	background: #282E52;
+    ;
+}

@@ -1,0 +1,29 @@
+#rectangle {
+    width: 200px;
+    height: 497px;
+    background: rgba(248, 248, 248, 0.7);
+border-radius: 25px;
+  }
+  .successImg {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    left: 669px;
+    top: 411px;
+  }
+  
+  /* .successText {
+    position: absolute;
+    width: 695px;
+    height: 59px;
+    left: 366px;
+    top: 586px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    identical to box height
+    color: #000000;
+  } */

@@ -1,0 +1,162 @@
+    .Cart {
+        * {
+            box-sizing: border-box
+        }
+
+        // min-height: 100vh;
+        margin-bottom: 300px;
+
+        .CartWrapper {
+            width: 1050px;
+            height: fit-content;
+            background-color: #fff;
+            margin: -240px auto;
+            position: relative;
+            z-index: 50;
+            padding: 75px;
+            display: flex;
+            flex-flow: column;
+            text-align: center;
+
+            h1 {
+                font-size: 1.7rem;
+                font-weight: 700;
+                padding: 20px;
+            }
+
+            .Labels {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                align-content: center;
+                justify-items: center;
+                margin-bottom: 50px;
+
+                h2 {
+                    font-size: 1.3rem;
+                    font-weight: 700;
+                    text-align: right
+                }
+            }
+
+            .Product {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                place-content: center;
+                place-items: start stretch;
+                height: 200px;
+                border: 2px solid rgba(0, 0, 0, 0.02);
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+                margin-bottom: 20px;
+                position: relative;
+
+                >* {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    border-left: 3px solid rgba(0, 0, 0, .1);
+                    height: 100%;
+                    padding: 10px
+                }
+
+                >span {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    transform: translate(50%, -50%);
+                    height: 30px;
+                    width: 30px;
+                    color: #fff;
+                    background: red;
+                    border-radius: 50%;
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+                    border-left: none;
+
+                    >* {
+                        height: 100%;
+                        width: 100%
+                    }
+
+                    // font-size: 2rem
+                }
+
+                img {
+                    height: 200px;
+                    padding: 10px;
+                    border: 1px solid #fff;
+                    box-shadow: 0 0 10px #ddd;
+                    // border-radius: 15px;
+                    margin: 0
+                }
+
+                >p {
+                    font-weight: 800;
+                }
+
+                .qty {
+                    .input {
+                        max-width: 120px;
+                        border: none;
+
+                        button,
+                        input {
+                            border: 1px solid #ccc;
+                            text-align: center;
+                        }
+
+                        button {
+
+                            &:hover,
+                            &:active,
+                            &:focus {
+                                outline: none !important
+                            }
+                        }
+                    }
+                }
+            }
+
+            .Total {
+                align-self: flex-end;
+                font-size: 1.8rem;
+                margin-top: 50px;
+
+                p {
+                    font-weight: 800;
+
+                    span {
+                        color: #19683F;
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            >.buttons {
+                display: flex;
+                justify-content: space-between;
+
+                button {
+                    width: 220px;
+                    height: 48px;
+                    font-weight: 700;
+                    outline: none;
+                    border: none;
+                    font-size: 1rem;
+                    align-self: center;
+                    margin-top: 20px;
+
+                    &:last-child {
+                        background-color: #282E52;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .hr {
+                width: 1px;
+                color: #555
+            }
+        }
+    }

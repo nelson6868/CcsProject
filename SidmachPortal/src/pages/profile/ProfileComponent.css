@@ -1,0 +1,51 @@
+/* .width1{
+  
+   
+    margin-left:20px;
+   font-family:Poppins;
+}
+.texthover1:hover{
+    background-color: #ccc;  
+    font-size:30px;
+    font-weight: 30px;
+    color: #282E52;
+
+  }
+  .texthover1 {
+    font-size:30px;
+    font-weight: 30px;
+    color: red;
+  }
+  .texthover:hover{
+    background: #ccc; 
+
+  }
+  #arrow{
+    padding-left: 10px;
+} */
+
+
+
+ /* css(YOU WILL REWRITE THIS CLASS TO YOUR TEST) */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+ul li a{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    background-color: grey;
+    color: #fff;
+}
+
+.active{
+    background-color: blue;
+    color: #fff;
+}

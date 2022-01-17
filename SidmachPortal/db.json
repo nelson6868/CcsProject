@@ -1,0 +1,49 @@
+{
+    "posts": [
+      { 
+          "id": 1, 
+          "reminder": "Have some Rest", 
+          "time": "5:20pm" 
+        },
+
+        { 
+            "id": 2, 
+            "reminder": "Take the dog out for a walk", 
+            "time": "6:08pm"
+        },
+        { 
+            "id": 3, 
+            "reminder": "Have some Rest", 
+            "time": "5:20pm" 
+          },
+  
+          { 
+              "id": 4, 
+              "reminder": "Take the dog out for a walk", 
+              "time": "6:08pm"
+          },
+          { 
+            "id": 5, 
+            "reminder": "Have some Rest", 
+            "time": "5:20pm" 
+          },
+  
+          { 
+              "id": 6, 
+              "reminder": "Take the dog out for a walk", 
+              "time": "6:08pm"
+          },
+          { 
+            "id": 7, 
+            "reminder": "Have some Rest", 
+            "time": "5:20pm" 
+          },
+  
+          { 
+              "id": 8, 
+              "reminder": "Take the dog out for a walk", 
+              "time": "6:08pm"
+          }
+    ]
+   
+  }
